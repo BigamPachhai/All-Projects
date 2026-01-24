@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env files
+.env
+.env.*
+
+# Build
+dist/
+build/
+.next/
+out/
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,29 @@
+{
+  "name": "chatgpt-clone-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack AI chat application with React and Express",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../client && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "setup": "chmod +x setup.sh && ./setup.sh",
+    "start": "chmod +x start-dev.sh && ./start-dev.sh",
+    "build": "cd client && npm run build",
+    "production": "cd backend && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  },
+  "keywords": [
+    "chatgpt",
+    "ai",
+    "react",
+    "express",
+    "mongodb",
+    "gemini",
+    "clerk"
+  ],
+  "author": "",
+  "license": "MIT"
+}
